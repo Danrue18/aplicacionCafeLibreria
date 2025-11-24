@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BIENVENIDO, ESTE ES NUESTRO MENÚ DE OPCIONES"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingTop="10dp" />
+        <Button android:id="@+id/btnTema" android:text="Tema Principal"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+
+        <Button android:id="@+id/btnMisionVision" android:text="Misión y Visión"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+        <Button android:id="@+id/btnQuienes" android:text="¿Quiénes Somos?"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+        <Button android:id="@+id/btnGaleria" android:text="Galería de Productos"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+        <Button android:id="@+id/btnVideo" android:text="Video Promocional"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+        <Button android:id="@+id/btnContacto" android:text="Contáctanos"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+        <Button android:id="@+id/btnRedes" android:text="Redes Sociales"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+        <Button android:id="@+id/btnSimulacion" android:text="Realizar Pedido"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+
+        <Button android:id="@+id/btnSalir" android:text="Cerrar Sesión"
+            android:layout_width="match_parent" android:layout_height="wrap_content" android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+</ScrollView>

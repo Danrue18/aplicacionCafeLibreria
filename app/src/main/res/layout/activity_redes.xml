@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TÍTULO -->
+        <TextView
+            android:id="@+id/tvRedesTitulo"
+            android:text="Síguenos en nuestras Redes Sociales"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- ÍCONOS DE REDES -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <ImageButton
+                android:id="@+id/btnInstagram"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                android:padding="12dp"
+                android:scaleType="centerInside"
+                app:tint="@null"
+                android:contentDescription="Instagram"
+                android:src="@drawable/ic_instagram"/>
+
+            <ImageButton
+                android:id="@+id/btnFacebook"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                android:padding="12dp"
+                android:scaleType="centerInside"
+                app:tint="@null"
+                android:contentDescription="Facebook"
+                android:src="@drawable/ic_facebook"/>
+
+            <ImageButton
+                android:id="@+id/btnX"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                android:padding="12dp"
+                android:scaleType="centerInside"
+                app:tint="@null"
+                android:contentDescription="X"
+                android:src="@drawable/ic_x"/>
+
+            <ImageButton
+                android:id="@+id/btnTiktok"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#FFFFFF"
+                android:padding="12dp"
+                android:scaleType="centerInside"
+                app:tint="@null"
+                android:contentDescription="TikTok"
+                android:src="@drawable/ic_tiktok"/>
+
+        </LinearLayout>
+
+        <!-- BOTONES DE TEXTO -->
+        <Button
+            android:id="@+id/btnAbrirInstagram"
+            android:text="Abrir Instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnAbrirFacebook"
+            android:text="Abrir Facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnAbrirX"
+            android:text="Abrir X"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnAbrirTiktok"
+            android:text="Abrir TikTok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+
+        <!-- BOTÓN VOLVER -->
+        <Button
+            android:id="@+id/btnVolver"
+            android:text="Volver al Menú"
+            android:layout_marginTop="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+</ScrollView>
+

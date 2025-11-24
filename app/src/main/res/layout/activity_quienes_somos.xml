@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- TÍTULO DE LA PANTALLA -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¿QUIÉNES SOMOS?"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#4E342E"
+            android:gravity="center"
+            android:paddingBottom="24dp" />
+
+        <!-- DESCRIPCIÓN -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somos Café Capítulo Uno, un equipo de soñadores que cree en la magia de una buena historia y la calidez de un café perfecto. Nacimos de la pasión por la literatura y la gastronomía, con el objetivo de ser el punto de encuentro de la comunidad creativa y lectora de la ciudad."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginBottom="30dp" />
+
+        <!-- TÍTULO DEL EQUIPO -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EL EQUIPO EDITORIAL"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#795548"
+            android:gravity="center"
+            android:paddingBottom="15dp"/>
+
+        <!-- MIEMBRO 1 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/imgMiembro1"
+                android:src="@drawable/foto_miembro_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Fotografía de Sofia Ramirez"
+                android:layout_marginEnd="15dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sofía Ramírez"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#4E342E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rol: Fundadora y Gerente de Contenidos"
+                    android:textSize="14sp"
+                    android:textColor="#795548"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cédula/ID: 1014567890"
+                    android:textSize="14sp"
+                    android:textColor="#757575"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- MIEMBRO 2 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/imgMiembro2"
+                android:src="@drawable/foto_miembro_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Fotografía de Andrés Vargas"
+                android:layout_marginEnd="15dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Andrés Vargas"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#4E342E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rol: Jefe de Barismo y Operaciones"
+                    android:textSize="14sp"
+                    android:textColor="#795548"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cédula/ID: 808765432"
+                    android:textSize="14sp"
+                    android:textColor="#757575"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- MIEMBRO 3 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@android:color/white"
+            android:elevation="2dp"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/imgMiembro3"
+                android:src="@drawable/foto_miembro_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop"
+                android:contentDescription="Fotografía de Elena Castro"
+                android:layout_marginEnd="15dp"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Elena Castro"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#4E342E"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rol: Curadora de la Librería y Eventos"
+                    android:textSize="14sp"
+                    android:textColor="#795548"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cédula/ID: 43210987"
+                    android:textSize="14sp"
+                    android:textColor="#757575"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Botón -->
+        <Button
+            android:id="@+id/btnVolver"
+            android:text="Volver al Menú"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#A1887F"
+            android:textColor="@android:color/white"
+            android:paddingVertical="12dp"/>
+    </LinearLayout>
+</ScrollView>

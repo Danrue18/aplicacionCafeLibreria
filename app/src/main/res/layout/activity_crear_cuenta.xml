@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/txtTituloCrear"
+        android:text="CREAR CUENTA"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#4E342E"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/imgLogoCrear"
+        android:src="@drawable/logo_cafe"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="Logo de la aplicación" />
+
+    <!-- Campo Usuario -->
+    <EditText
+        android:id="@+id/etNuevoUsuario"
+        android:hint="Nuevo Usuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- Campo Contraseña -->
+    <EditText
+        android:id="@+id/etNuevaContrasena"
+        android:hint="Nueva Contraseña"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"
+        android:textSize="16sp" />
+
+    <!-- Botón Registrar -->
+    <Button
+        android:id="@+id/btnRegistrar"
+        android:text="Registrar Cuenta"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#8D6E63"
+        android:textColor="@android:color/white" />
+
+    <!-- Botón Volver a Login -->
+    <Button
+        android:id="@+id/btnVolverLogin"
+        android:text="Volver a Iniciar Sesión"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#A1887F"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

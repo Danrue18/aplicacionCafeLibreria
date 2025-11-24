@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AplicacionCafeLibreria">
+
+        <!-- Pantalla de PRESENTACIÓN: Es la primera en lanzarse (LAUNCHER) -->
+        <activity
+            android:name=".PresentacionActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Pantalla de LOGIN: Ahora se comporta como una actividad normal, llamada desde PresentacionActivity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+
+        <!-- Otras pantallas -->
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".TemaPrincipalActivity" />
+        <activity android:name=".MisionVisionActivity" />
+        <activity android:name=".QuienesSomosActivity" />
+        <activity android:name=".GaleriaActivity" />
+        <activity android:name=".VideoActivity" />
+        <activity android:name=".RedesActivity" />
+        <activity android:name=".ContactoActivity" />
+        <activity android:name=".SimulacionActivity" />
+        <activity android:name=".CrearCuentaActivity" />
+
+    </application>
+
+</manifest>

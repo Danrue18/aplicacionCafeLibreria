@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <!-- LOGO DE LA EMPRESA -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo_cafe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:contentDescription="Logo de Café Capítulo Uno" />
+
+    <!-- TÍTULO DE BIENVENIDA -->
+    <TextView
+        android:id="@+id/txtBienvenido"
+        android:text="Bienvenido a Café Capítulo Uno"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#4E342E"
+        android:letterSpacing="0.02"
+        android:layout_below="@id/imgLogo"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- SLOGAN DE LA EMPRESA -->
+    <TextView
+        android:id="@+id/txtSlogan"
+        android:text="“Tu próxima gran historia empieza aquí.”"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:textColor="#6D4C41"
+        android:layout_below="@id/txtBienvenido"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- BOTÓN PARA CONTINUAR A LA APP -->
+    <Button
+        android:id="@+id/btnContinuar"
+        android:text="Ingresar"
+        android:backgroundTint="#8D6E63"
+        android:textColor="@android:color/white"
+        android:paddingStart="34dp"
+        android:paddingEnd="34dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="45dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ⭐ CAFÉS -->
+        <TextView
+            android:text="☕ Cafés"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="8dp">
+
+            <!-- CAFE 1 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/cafe1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="EL PUNTO Y COMA"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:text="Un clásico Espresso Macchiato (espresso cortado con espuma de leche). Perfecto para una pausa rápida."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+            <!-- CAFE 2 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/cafe2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="ELIXIR DEL BIBLIÓFILO"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:text="Un cálido Chai Latte con Especias (Té negro infusionado con leche, canela, cardamomo y jengibre)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+            <!-- CAFE 3 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/cafe3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="SUSURRO DE TINTA"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:text="Un refrescante Iced Caramel Latte (Café, leche, hielo y jarabe de caramelo)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+            <!-- CAFE 4 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/cafe4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="CUENTO DE MEDIANOCHE"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:text="Un Mocha Selva Negra (Chocolate oscuro, espresso, leche y un toque de cereza)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <!-- CAFE 5 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/cafe5"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="DESPERTAR DEL AUTOR"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"/>
+
+                <TextView
+                    android:text="Un potente Cold Brew (café concentrado de infusión en frío) servido puro o con un chorrito de leche."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- ⭐ TORTAS -->
+        <TextView
+            android:text="🍰 Tortas"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="8dp">
+
+            <!-- TORTAS 1 a 5 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/torta1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="LA TESIS DEFINITIVA"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="El clásico y cremoso New York Cheesecake (Cheesecake al horno, servido con o sin salsa de frutos rojos)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/torta2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="EL EPILOGO"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Auténtico Tiramisú (Capas de bizcocho mojado en café, crema de mascarpone y cacao en polvo)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/torta3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="VERSOS AMARGO Y DULCE"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Volcán de Chocolate (Individual) (Bizcocho de chocolate que, al cortarse, libera chocolate derretido)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/torta4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="FINAL FELIZ"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Torta de Limón y Amapola (Bizcocho de limón con semillas de amapola y glaseado de limón)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/torta5"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="CRÓNICAS DE OTOÑO"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="La tradicional Torta de Zanahoria (Húmeda, con nueces y cream cheese frosting)."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- ⭐ LIBROS -->
+        <TextView
+            android:text="📚 Libros"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:padding="8dp">
+
+            <!-- LIBROS 1 a 5 -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/libro1"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="Saga Alas de Sangre"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Una intensa fantasía dark sobre una academia militar de jinetes de dragones. Traición, guerra y un romance ardiente te esperan."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/libro2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="Saga de Harry Potter"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Un espresso intenso con espuma suave, perfecto para pensar y escribir."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/libro3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="Saga Como entrenar a tu dragon"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Aventuras épicas, humor y la conmovedora historia de Hipo, un joven vikingo inadaptado, y su inusual amistad con su dragón, Chimuelo."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/libro4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="Saga Cazadores de sombras"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:text="Un mundo secreto donde los Cazadores de Sombras protegen a la humanidad de demonios y criaturas sobrenaturales. Una mezcla de acción, misterio y romance juvenil."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:padding="8dp"
+                android:layout_margin="8dp"
+                android:background="#EFEFEF"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1">
+
+                <ImageView
+                    android:src="@drawable/libro5"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:text="Saga Meses a tu Lado"
+                    android:textSize="16sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:text="Una colección de novelas young adult centradas en el amor, el autodescubrimiento y las complicadas relaciones durante la etapa escolar y universitaria."
+                    android:textSize="14sp"
+                    android:textColor="#555555"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"/>
+
+            </LinearLayout>
+
+        </GridLayout>
+
+        <!-- BOTÓN VOLVER -->
+        <Button
+            android:id="@+id/btnVolver"
+            android:text="Volver al Menú"
+            android:backgroundTint="#8D6E63"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
